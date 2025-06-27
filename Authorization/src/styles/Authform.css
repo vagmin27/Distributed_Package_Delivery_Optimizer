@@ -1,0 +1,35 @@
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.auth-container {
+    @apply min-h-screen flex items-center justify-center bg-gradient-to-r from-purple-500 via-pink-500 to-blue-500;
+}
+
+.auth-box {
+    @apply bg-white p-8 rounded-xl shadow-lg w-96 relative overflow-hidden;
+}
+
+.auth-button {
+    @apply px-4 py-2 font-semibold rounded transition-all duration-500;
+}
+
+.auth-button-active {
+    @apply bg-indigo-600 text-white;
+}
+
+.auth-button-inactive {
+    @apply bg-gray-100 text-black;
+}
+
+.form-input {
+    @apply border border-gray-300 px-4 py-2 rounded;
+}
+
+.form-submit {
+    @apply bg-indigo-600 text-white py-2 rounded hover:bg-indigo-700 transition;
+}
+
+.form-input:focus {
+    @apply outline-none ring-2 ring-indigo-400;
+} */
